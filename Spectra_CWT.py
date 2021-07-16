@@ -22,7 +22,7 @@ def calculate_wavelet(data):
     result_wavelet = wav2 + wav3 + wav4
     return result_wavelet[0]
 
-#This function applies the wavelet transform specified previously to each row the the imported data
+#This function applies the wavelet transform specified previously to each row of the imported data
 def create_cwt(input_data):
     output = input_data.apply(lambda x: calculate_wavelet(x), axis=1)
     output = output.apply(lambda x: pd.Series(list(x)))
