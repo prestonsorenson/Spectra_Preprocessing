@@ -13,10 +13,6 @@ import matplotlib.pyplot as plt
 #import data
 spectra=pd.read_csv('<file location>')
 
-#subset data to only the spectra columns
-spectra=spectra.iloc[:,6:1874]
-
-
 #define wavelet transform functions. This example calculates a second order gaussian wavelet
 #Scales 2, 3, and 4 are calculated and summed
 def calculate_wavelet(data):
