@@ -3,7 +3,7 @@
 """
 Created on Fri Jul 16 13:22:14 2021
 
-@author: preston
+@author: preston sorenson
 """
 
 import pywt
