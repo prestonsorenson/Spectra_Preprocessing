@@ -27,6 +27,7 @@ process_cwt=function(x) {
   temp1[,2]+temp1[,3]+temp1[,4]
 }
 
+#apply wavelet transform to each row
 spectra_cwt=t(apply(spectra, 1, FUN = process_cwt))
 
 
