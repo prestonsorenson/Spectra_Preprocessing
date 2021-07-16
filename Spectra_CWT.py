@@ -32,4 +32,4 @@ def create_cwt(input_data):
 spectra_cwt=create_cwt(spectra)
 
 #plot results
-plt.plot(spectra_cwt.iloc[100,:])
+plt.plot(spectra_cwt.iloc[1,:])
